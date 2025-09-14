@@ -47,12 +47,11 @@ const CareerPage: React.FC = () => {
   ];
 
   const locations = [
-    { name: "Ahmedabad, Gujarat, India", role: "Headquarters" },
-    { name: "Chicago, IL, USA", role: "Branch Office" },
+    { name: "Ahmedabad, Gujarat, India", role: "Headquarters" }
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-auto">
       {/* Hero Section */}
       <AnimatedSection type="zoom-in" className="text-center min-h-[60vh] flex flex-col justify-center items-center px-4 py-20 md:py-32">
         <p className="font-semibold text-primary">Join Our Team</p>
@@ -118,9 +117,9 @@ const CareerPage: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Our Global Presence</h2>
             <p className="mt-4 text-lg text-on-surface/80 max-w-2xl mx-auto">Strategically located to attract top talent and serve our clients worldwide.</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-1 gap-8">
             {locations.map((loc) => (
-              <div key={loc.name} className="card-bright p-6 text-center">
+              <div key={loc.name} className="card-bright p-6 text-center align-center">
                 <MapPinIcon className="w-10 h-10 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold text-lg">{loc.name}</h3>
                 <p className="text-sm text-primary font-medium">{loc.role}</p>

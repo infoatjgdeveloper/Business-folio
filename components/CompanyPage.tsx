@@ -75,8 +75,7 @@ const CompanyPage: React.FC = () => {
     ];
     
     const locations = [
-        { name: "Ahmedabad, Gujarat India", role: "Headquarters" },
-        { name: "Chicago, IL, USA", role: "Branch Office" },
+        { name: "Ahmedabad, Gujarat India", role: "Headquarters" }
     ];
 
 

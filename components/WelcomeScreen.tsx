@@ -111,9 +111,9 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => {
                         <button onClick={handleLinkClick('business')} className="btn-primary">
                             Explore Solutions
                         </button>
-                        <button onClick={handleLinkClick('api')} className="btn-secondary">
+                        {/* <button onClick={handleLinkClick('api')} className="btn-secondary">
                             View Platform
-                        </button>
+                        </button> */}
                     </div>
                 </AnimatedSection>
             </div>
