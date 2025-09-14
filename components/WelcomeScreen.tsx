@@ -16,19 +16,19 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => {
     const models = [
         {
             icon: CpuChipIcon,
-            title: "IntelligentLLM Pro v1.2.1",
+            title: "LLM Pro v1.2.1",
             description: "Our flagship generative super brain. The ultimate combination of performance and capability, designed for complex reasoning.",
             features: ["State-of-the-art reasoning", "Multi-million token context", "Highest factual accuracy"],
         },
         {
             icon: BoltIcon,
-            title: "IntelligentLLM Flash v2.1.0",
+            title: "LLM Flash v2.1.0",
             description: "Optimized for speed and efficiency. Ideal for high-throughput, low-latency applications like real-time conversation.",
             features: ["Industry-leading latency", "Cost-effective at scale", "Perfect for chat & summarization"],
         },
         {
             icon: EyeIcon,
-            title: "IntelligentLLM Vision v1.5.0",
+            title: "LLM Vision v1.5.0",
             description: "A powerful multimodal model that understands and analyzes images, charts, and video to unlock visual insights.",
             features: ["Advanced image analysis", "Chart & graph interpretation", "Video content understanding"],
         },
@@ -94,12 +94,12 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => {
             <div>
                 <AnimatedSection type="zoom-in" className="text-center min-h-[70vh] flex flex-col justify-center items-center px-4 py-20 md:py-32">
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mx-auto gradient-text hero-title py-4">
-                        IntelligentLLM.
+                       JG Developer
                     </h1>
                      <div className="mt-6 max-w-4xl mx-auto">
-                        <p className="text-base md:text-lg text-on-background/80">
+                        {/* <p className="text-base md:text-lg text-on-background/80">
                             From JG Developer,
-                        </p>
+                        </p> */}
                         <h2 className="mt-2 text-3xl md:text-5xl font-semibold tracking-tight gradient-text">
                             Aimed Towards The Future.
                         </h2>

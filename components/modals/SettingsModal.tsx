@@ -41,7 +41,7 @@ const InvestorsPage: React.FC = () => {
                         </div>
                          <div className="colorful-card p-8 flex flex-col">
                             <CpuChipIcon className="w-12 h-12 text-primary mb-4" />
-                            <h3 className="text-2xl font-bold">Engine 2: IntelligentLLM Platform</h3>
+                            <h3 className="text-2xl font-bold">Engine 2: AI Platform</h3>
                             <p className="text-on-surface/80 mt-2 mb-4 flex-grow">Our high-growth, state-of-the-art AI platform, built on a proprietary technology stack. This engine targets the multi-trillion dollar AI market and is powered by the insights and access from Engine 1.</p>
                              <div className="mt-auto pt-4 border-t border-border">
                                 <p className="text-4xl font-bold">300%+ <span className="text-lg font-medium text-on-surface/70">YoY Growth</span></p>

@@ -11,11 +11,11 @@ const PlatformPage: React.FC = () => {
             icon: CpuChipIcon,
             title: "The Cognitive Core",
             subtitle: "Our family of state-of-the-art models.",
-            description: "At the heart of IntelligentLLM is a suite of models engineered for excellence. Each one is purpose-built to deliver the optimal balance of performance, speed, and cost for any task, from complex multi-step reasoning to instantaneous chat.",
+            description: "At the heart of LLM is a suite of models engineered for excellence. Each one is purpose-built to deliver the optimal balance of performance, speed, and cost for any task, from complex multi-step reasoning to instantaneous chat.",
             points: [
-                { name: "IntelligentLLM Pro", detail: "Our most powerful model, excelling at creative tasks, complex instructions, and multi-turn dialogue." },
-                { name: "IntelligentLLM Flash", detail: "Optimized for extreme speed and efficiency, perfect for high-throughput, low-latency applications." },
-                { name: "IntelligentLLM Vision", detail: "A multimodal powerhouse that understands and analyzes images, charts, and video to unlock visual insights." }
+                { name: "LLM Pro", detail: "Our most powerful model, excelling at creative tasks, complex instructions, and multi-turn dialogue." },
+                { name: "LLM Flash", detail: "Optimized for extreme speed and efficiency, perfect for high-throughput, low-latency applications." },
+                { name: "LLM Vision", detail: "A multimodal powerhouse that understands and analyzes images, charts, and video to unlock visual insights." }
             ]
         },
         data: {
@@ -75,7 +75,7 @@ const PlatformPage: React.FC = () => {
             <AnimatedSection type="zoom-in" className="text-center min-h-[60vh] flex flex-col justify-center items-center px-4 py-20 md:py-32">
                 <p className="font-semibold text-primary">The Platform</p>
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tighter max-w-4xl mx-auto gradient-text hero-title py-4">
-                    The IntelligentLLM Ecosystem.
+                    The LLM Ecosystem.
                 </h1>
                 <p className="mt-6 text-lg md:text-xl text-on-background/80 max-w-3xl mx-auto">
                     More than just a model. We provide an end-to-end, vertically integrated platform for building production-grade AI applications with unparalleled performance, safety, and control.
@@ -149,7 +149,7 @@ const PlatformPage: React.FC = () => {
                 </AnimatedSection>
             </div>
 
-            <div className="py-20 md:py-32 px-4 section-divider">
+            {/* <div className="py-20 md:py-32 px-4 section-divider">
                 <AnimatedSection type="zoom-in" className="text-center max-w-4xl mx-auto">
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Ready to Build?</h2>
                     <p className="mt-4 text-lg text-on-background/80">
@@ -164,7 +164,7 @@ const PlatformPage: React.FC = () => {
                         </button>
                     </div>
                 </AnimatedSection>
-            </div>
+            </div> */}
         </div>
     );
 };

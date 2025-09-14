@@ -41,9 +41,10 @@ const Header: React.FC<HeaderProps> = ({ activePage, setActivePage }) => {
     home: 'Home',
     research: 'Research',
     business: 'Solutions',
-    api: 'Platform',
+    // api: 'Platform',
     company: 'Company',
     investors: 'Investors',
+    careers: 'Careers',
   };
 
   return (

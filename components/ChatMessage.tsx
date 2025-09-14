@@ -35,11 +35,11 @@ const ResearchPage: React.FC = () => {
             title: "Deep Neural Intelligence",
             description: "Our foundational research is focused on developing novel neural network architectures that move beyond current paradigms to achieve true deep learning and intelligence."
         },
-        {
-            icon: EyeIcon,
-            title: "The intelligentLLM Brain",
-            description: "The culmination of our research will be the launch of intelligentLLM, a generative super brain capable of complex reasoning, continuous learning, and autonomous task execution."
-        },
+        // {
+        //     icon: EyeIcon,
+        //     title: "The intelligentLLM Brain",
+        //     description: "The culmination of our research will be the launch of intelligentLLM, a generative super brain capable of complex reasoning, continuous learning, and autonomous task execution."
+        // },
         {
             icon: ServerStackIcon,
             title: "Continuous Evolution",
@@ -89,7 +89,7 @@ const ResearchPage: React.FC = () => {
                         <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Future Horizons</h2>
                         <p className="mt-4 text-lg text-on-surface/80 max-w-3xl mx-auto">Our current work is the foundation for an ambitious roadmap, aimed at creating a truly universal intelligence.</p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {futureDirections.map((pillar) => (
                              <div key={pillar.title} className="card-bright p-8 text-center">
                                 <pillar.icon className="w-12 h-12 text-primary mx-auto mb-5" />

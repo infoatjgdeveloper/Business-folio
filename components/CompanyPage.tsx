@@ -20,11 +20,7 @@ import {
 const CompanyPage: React.FC = () => {
 
     const journeyMilestones = [
-        {
-            side: 'left',
-            title: "2014-2016: Foundation & Growth",
-            description: "JG Developer is founded. We establish our core expertise in bespoke Web Design, Application Development, and custom Software solutions, building a strong reputation for quality and reliability."
-        },
+       
         {
             side: 'right',
             title: "2018-2020: Enterprise Expansion",
@@ -42,13 +38,13 @@ const CompanyPage: React.FC = () => {
         },
         {
             side: 'left',
-            title: "2025: intelligentLLM MVP",
-            description: "The first Minimum Viable Product of intelligentLLM (The Brain) is launched, showcasing its core capabilities in understanding, reasoning, and task execution to early partners."
+            title: "2025: LLM MVP",
+            description: "The first Minimum Viable Product of LLM (The Brain) is launched, showcasing its core capabilities in understanding, reasoning, and task execution to early partners."
         },
         {
             side: 'right',
             title: "2026: The Public Launch",
-            description: "intelligentLLM is officially launched to the public, marking a new era of accessible, powerful, and general-purpose AI designed for both enterprise and everyday use."
+            description: "LLM is officially launched to the public, marking a new era of accessible, powerful, and general-purpose AI designed for both enterprise and everyday use."
         },
         {
             side: 'left',
@@ -58,7 +54,7 @@ const CompanyPage: React.FC = () => {
         {
             side: 'right',
             title: "2030: The One-Stop Platform",
-            description: "Our vision culminates in intelligentLLM becoming the leading one-stop platform for 'everyday everything'—a single, intelligent layer for work, creativity, and productivity."
+            description: "Our vision culminates in LLM becoming the leading one-stop platform for 'everyday everything'—a single, intelligent layer for work, creativity, and productivity."
         }
     ];
     
@@ -92,7 +88,7 @@ const CompanyPage: React.FC = () => {
                     From Enterprise Solutions to Artificial Intelligence.
                 </h1>
                 <p className="mt-6 text-lg md:text-xl text-on-background/80 max-w-3xl mx-auto">
-                    Since 2014, we've been building the future. What started as an enterprise-focused consultancy has evolved into a leading AI research company, culminating in our most ambitious project: IntelligentLLM.
+                    Since 2018, we've been building the future. What started as an enterprise-focused consultancy has evolved into a leading AI research company, culminating in our most ambitious projects.
                 </p>
             </AnimatedSection>
 
@@ -136,11 +132,11 @@ const CompanyPage: React.FC = () => {
             <section className="py-20 md:py-32 px-4 section-divider">
                 <AnimatedSection type="fade-in-up" className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
                     <div>
-                        <h2 className="text-4xl md:text-5xl font-bold tracking-tight">The Brain of AI: intelligentLLM</h2>
+                        <h2 className="text-4xl md:text-5xl font-bold tracking-tight">The Brain of AI</h2>
                          <p className="mt-6 text-lg text-on-background/80">
-                            intelligentLLM is more than a model; it's a revolutionary cognitive platform. It represents the culmination of our research into deep, multi-layer learning architectures designed to emulate the principles of human cognition. At its core, intelligentLLM is capable of understanding complex instructions, thinking through problems, memorizing vast contexts, and deploying sophisticated solutions.
+                           This is more than a model; it's a revolutionary cognitive platform. It represents the culmination of our research into deep, multi-layer learning architectures designed to emulate the principles of human cognition. At its core, it is capable of understanding complex instructions, thinking through problems, memorizing vast contexts, and deploying sophisticated solutions.
                             <br/><br/>
-                            Unlike traditional models that rely solely on pre-defined data, intelligentLLM is engineered for <strong>continuous learning</strong>. It's like a nascent intelligence, capable of generating its own insights and adapting its knowledge base from every interaction, effectively learning without constant retraining. This allows it to tackle novel, unseen challenges and evolve its capabilities over time. It's designed to be the single, unified interface for all your work, seamlessly integrating into your daily routine to handle everything from simple tasks to multi-layered, complex projects.
+                           Unlike traditional models that rely solely on pre-defined data, this platform is engineered for continuous learning. It's like a nascent intelligence, capable of generating its own insights and adapting its knowledge base from every interaction, effectively learning without constant retraining. This allows it to tackle novel, unseen challenges and evolve its capabilities over time. It's designed to be the single, unified interface for all your work, seamlessly integrating into your daily routine to handle everything from simple tasks to multi-layered, complex projects.
                         </p>
                     </div>
                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
