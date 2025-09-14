@@ -12,3 +12,5 @@ This contains everything you need to run your app locally.
 
 2. Run the app:
    `npm run dev`
+3. Make Build
+   `npm run build`
