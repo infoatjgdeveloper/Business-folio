@@ -81,7 +81,7 @@ const CareerPage: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium text-primary">{job.type}</span>
-                  <a href="mailto:careers@jgdeveloper.com?subject=Application - {job.title}" className="btn-primary text-sm">
+                  <a href="mailto:careersatjgdeveloper@gmail.com?subject=Application - {job.title}" className="btn-primary text-sm">
                     Apply Now
                   </a>
                 </div>
@@ -137,7 +137,7 @@ const CareerPage: React.FC = () => {
             We’re seeking pioneers, dreamers, and builders. If you’re driven to solve the most important challenges of our time, your journey starts here.
           </p>
           <div className="mt-8">
-            <a href="mailto:careers@jgdeveloper.com" className="btn-primary">Apply Today</a>
+            <a href="mailto:careersatjgdeveloper@gmail.com" className="btn-primary">Apply Today</a>
           </div>
         </AnimatedSection>
       </section>
