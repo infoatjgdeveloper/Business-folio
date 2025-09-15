@@ -9,8 +9,9 @@ import InvestorsPage from './components/modals/SettingsModal';
 import Header from './components/Sidebar';
 import BrightParticleBackground from './components/ParticleBackground';
 import CompanyPage from './components/CompanyPage';
+import CareerPage from './components/CareerPage';
 
-export type Page = 'home' | 'research' | 'api' | 'business' | 'investors' | 'company';
+export type Page = 'home' | 'research' | 'api' | 'business' | 'investors' | 'company' | 'careers';
 
 const App: React.FC = () => {
     const [activePage, setActivePage] = useState<Page>('home');
@@ -29,6 +30,8 @@ const App: React.FC = () => {
                 return <InvestorsPage />;
             case 'company':
                 return <CompanyPage />;
+             case 'careers':
+                return <CareerPage />;
             default:
                 return <HomePage setActivePage={setActivePage} />;
         }

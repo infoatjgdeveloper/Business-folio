@@ -74,10 +74,10 @@ const Footer: React.FC<FooterProps> = ({ setActivePage }) => {
                  <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-xs text-on-surface/60">
                     <div className="flex items-center space-x-2 mb-4 md:mb-0">
                       <JGDeveloperIcon className="w-4 h-4" />
-                      <span>JG Developer Inc.</span>
+                      <span>JG Developer Pvt. Ltd.</span>
                     </div>
                     <div className="text-center mb-4 md:mb-0">
-                        <span>&copy; {new Date().getFullYear()} JG Developer Inc. All Rights Reserved.</span>
+                        <span>&copy; {new Date().getFullYear()} JG Developer Private Limited. All Rights Reserved.</span>
                         <span className="block sm:inline sm:ml-2">In association with NG Enterprise.</span>
                     </div>
                     <div className="flex space-x-5">
